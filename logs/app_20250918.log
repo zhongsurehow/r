@@ -1,0 +1,659 @@
+2025-09-18 01:44:17,943 - src.utils.logging_utils - WARNING - 配置文件不存在: config/app_config.json，使用默认配置
+2025-09-18 01:44:17,945 - src.utils.logging_utils - INFO - 配置管理器初始化完成
+2025-09-18 01:44:30,967 - src.utils.logging_utils - INFO - 性能监控已启动
+2025-09-18 01:44:35,923 - src.utils.dependency_manager - INFO - 依赖 ccxt 可用
+2025-09-18 01:44:35,926 - src.utils.dependency_manager - WARNING - 依赖 ccxt-pro 不可用: 实时数据流功能已禁用，使用模拟数据模式
+2025-09-18 01:44:35,928 - src.utils.dependency_manager - WARNING - 依赖 TA-Lib 不可用: 高级技术指标功能已禁用，使用基础指标
+2025-09-18 01:44:36,256 - src.utils.dependency_manager - INFO - 依赖 Redis 可用
+2025-09-18 01:44:36,261 - providers.real_data_service - INFO - 多源加密货币数据提供者已初始化
+2025-09-18 01:44:36,262 - providers.real_data_service - INFO - 真实交易所数据提供者已初始化
+2025-09-18 01:44:36,292 - providers.ccxt_enhanced - INFO - Initialized Binance exchange
+2025-09-18 01:44:36,308 - providers.ccxt_enhanced - INFO - Initialized OKX exchange
+2025-09-18 01:44:36,324 - providers.ccxt_enhanced - INFO - Initialized KuCoin exchange
+2025-09-18 01:44:36,344 - providers.ccxt_enhanced - INFO - Initialized Gate.io exchange
+2025-09-18 01:44:36,359 - providers.ccxt_enhanced - INFO - Initialized Crypto.com exchange
+2025-09-18 01:44:36,361 - providers.real_data_service - INFO - CCXT 可用，启用真实交易所数据功能
+2025-09-18 01:44:36,774 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 01:44:41,605 - providers.real_exchange_provider - ERROR - Error fetching from binance: Connection timeout to host https://api.binance.com/api/v3/ticker/24hr?symbol=BTCUSDT
+2025-09-18 01:44:41,606 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=BTC-USDT
+2025-09-18 01:44:41,606 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=BTCUSDT
+2025-09-18 01:44:41,689 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 01:44:46,626 - providers.real_exchange_provider - ERROR - Error fetching from binance: Connection timeout to host https://api.binance.com/api/v3/ticker/24hr?symbol=ETHUSDT
+2025-09-18 01:44:46,627 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=ETH-USDT
+2025-09-18 01:44:46,627 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=ETHUSDT
+2025-09-18 01:44:46,713 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 01:44:51,659 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=BNB-USDT
+2025-09-18 01:44:51,659 - providers.real_exchange_provider - ERROR - Error fetching from binance: Connection timeout to host https://api.binance.com/api/v3/ticker/24hr?symbol=BNBUSDT
+2025-09-18 01:44:51,688 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=BNBUSDT
+2025-09-18 01:44:51,828 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 01:44:56,729 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=ADA-USDT
+2025-09-18 01:44:56,730 - providers.real_exchange_provider - ERROR - Error fetching from binance: Connection timeout to host https://api.binance.com/api/v3/ticker/24hr?symbol=ADAUSDT
+2025-09-18 01:44:56,730 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=ADAUSDT
+2025-09-18 01:44:56,827 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 01:45:01,752 - providers.real_exchange_provider - ERROR - Error fetching from binance: Connection timeout to host https://api.binance.com/api/v3/ticker/24hr?symbol=SOLUSDT
+2025-09-18 01:45:01,754 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=SOL-USDT
+2025-09-18 01:45:01,754 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=SOLUSDT
+2025-09-18 01:45:02,693 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 01:45:03,909 - providers.real_exchange_provider - WARNING - API gate returned status 400
+2025-09-18 01:45:07,597 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=MATIC-USDT
+2025-09-18 01:45:07,598 - providers.real_exchange_provider - ERROR - Error fetching from binance: Connection timeout to host https://api.binance.com/api/v3/ticker/24hr?symbol=MATICUSDT
+2025-09-18 01:45:07,598 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=MATICUSDT
+2025-09-18 01:45:07,599 - providers.real_exchange_provider - WARNING - No real data available for MATIC/USDT, using mock data
+2025-09-18 01:45:07,604 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 01:45:12,612 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=DOT-USDT
+2025-09-18 01:45:12,613 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=DOTUSDT
+2025-09-18 01:45:12,614 - providers.real_exchange_provider - ERROR - Error fetching from binance: Connection timeout to host https://api.binance.com/api/v3/ticker/24hr?symbol=DOTUSDT
+2025-09-18 01:45:12,618 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 01:45:17,670 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=AVAXUSDT
+2025-09-18 01:45:17,697 - providers.real_exchange_provider - ERROR - Error fetching from binance: Connection timeout to host https://api.binance.com/api/v3/ticker/24hr?symbol=AVAXUSDT
+2025-09-18 01:45:17,724 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=AVAX-USDT
+2025-09-18 01:45:18,594 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 01:45:23,403 - providers.real_exchange_provider - ERROR - Error fetching from binance: Connection timeout to host https://api.binance.com/api/v3/ticker/24hr?symbol=BTCUSDT
+2025-09-18 01:45:23,449 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=BTC-USDT
+2025-09-18 01:45:23,450 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=BTCUSDT
+2025-09-18 01:45:23,572 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 01:45:28,507 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=ETH-USDT
+2025-09-18 01:45:28,509 - providers.real_exchange_provider - ERROR - Error fetching from binance: Connection timeout to host https://api.binance.com/api/v3/ticker/24hr?symbol=ETHUSDT
+2025-09-18 01:45:28,510 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=ETHUSDT
+2025-09-18 01:46:03,144 - src.providers.real_data_service - INFO - 多源加密货币数据提供者已初始化
+2025-09-18 01:46:03,147 - src.providers.real_data_service - INFO - 真实交易所数据提供者已初始化
+2025-09-18 01:46:03,212 - src.providers.ccxt_enhanced - INFO - Initialized Binance exchange
+2025-09-18 01:46:03,327 - src.providers.ccxt_enhanced - INFO - Initialized OKX exchange
+2025-09-18 01:46:03,484 - src.providers.ccxt_enhanced - INFO - Initialized KuCoin exchange
+2025-09-18 01:46:03,746 - src.providers.ccxt_enhanced - INFO - Initialized Gate.io exchange
+2025-09-18 01:46:03,865 - src.providers.ccxt_enhanced - INFO - Initialized Crypto.com exchange
+2025-09-18 01:46:03,889 - src.providers.real_data_service - INFO - CCXT 可用，启用真实交易所数据功能
+2025-09-18 01:46:06,473 - src.providers.real_exchange_info_provider - ERROR - 获取 gate.io 信息失败: 'gate.io'
+2025-09-18 01:46:16,595 - src.providers.real_exchange_info_provider - ERROR - Ping kucoin 失败: 
+2025-09-18 01:46:16,595 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 01:46:22,941 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 01:46:26,609 - src.providers.real_exchange_info_provider - ERROR - Ping bybit 失败: 
+2025-09-18 01:46:27,875 - providers.real_exchange_provider - ERROR - Error fetching from binance: Connection timeout to host https://api.binance.com/api/v3/ticker/24hr?symbol=BTCUSDT
+2025-09-18 01:46:27,878 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=BTC-USDT
+2025-09-18 01:46:27,881 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=BTCUSDT
+2025-09-18 01:46:27,891 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 01:46:32,967 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=ETH-USDT
+2025-09-18 01:46:32,998 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=ETHUSDT
+2025-09-18 01:46:33,014 - providers.real_exchange_provider - ERROR - Error fetching from binance: Connection timeout to host https://api.binance.com/api/v3/ticker/24hr?symbol=ETHUSDT
+2025-09-18 01:46:33,269 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 01:46:37,599 - src.providers.real_exchange_info_provider - ERROR - Ping kucoin 失败: 
+2025-09-18 01:46:37,600 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 01:46:38,046 - providers.real_exchange_provider - ERROR - Error fetching from binance: Connection timeout to host https://api.binance.com/api/v3/ticker/24hr?symbol=BNBUSDT
+2025-09-18 01:46:38,139 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=BNB-USDT
+2025-09-18 01:46:38,246 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=BNBUSDT
+2025-09-18 01:46:43,664 - providers.real_exchange_provider - ERROR - Error fetching from gate: 
+2025-09-18 01:46:43,695 - providers.real_exchange_provider - WARNING - No real data available for BNB/USDT, using mock data
+2025-09-18 01:46:43,944 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 01:46:48,611 - src.providers.real_exchange_info_provider - ERROR - Ping bybit 失败: 
+2025-09-18 01:46:48,613 - src.providers.real_exchange_info_provider - ERROR - 获取 huobi 信息失败: 'huobi'
+2025-09-18 01:46:48,613 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 01:46:48,749 - providers.real_exchange_provider - ERROR - Error fetching from binance: Connection timeout to host https://api.binance.com/api/v3/ticker/24hr?symbol=ADAUSDT
+2025-09-18 01:46:48,795 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=ADA-USDT
+2025-09-18 01:46:48,857 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=ADAUSDT
+2025-09-18 01:46:48,863 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 01:46:53,870 - providers.real_exchange_provider - ERROR - Error fetching from binance: Connection timeout to host https://api.binance.com/api/v3/ticker/24hr?symbol=SOLUSDT
+2025-09-18 01:46:53,872 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=SOLUSDT
+2025-09-18 01:46:53,873 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=SOL-USDT
+2025-09-18 01:46:53,878 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 01:46:54,410 - providers.real_exchange_provider - WARNING - API gate returned status 400
+2025-09-18 01:46:58,887 - providers.real_exchange_provider - ERROR - Error fetching from binance: Connection timeout to host https://api.binance.com/api/v3/ticker/24hr?symbol=MATICUSDT
+2025-09-18 01:46:58,889 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=MATICUSDT
+2025-09-18 01:46:58,890 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=MATIC-USDT
+2025-09-18 01:46:58,891 - providers.real_exchange_provider - WARNING - No real data available for MATIC/USDT, using mock data
+2025-09-18 01:46:58,906 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 01:46:59,598 - src.providers.real_exchange_info_provider - ERROR - Ping binance 失败: 
+2025-09-18 01:47:03,894 - providers.real_exchange_provider - ERROR - Error fetching from binance: Connection timeout to host https://api.binance.com/api/v3/ticker/24hr?symbol=DOTUSDT
+2025-09-18 01:47:03,925 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=DOT-USDT
+2025-09-18 01:47:03,930 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=DOTUSDT
+2025-09-18 01:47:07,264 - providers.real_exchange_provider - ERROR - Error fetching from binance: Timeout context manager should be used inside a task
+2025-09-18 01:47:07,266 - providers.real_exchange_provider - ERROR - Error fetching from okx: Timeout context manager should be used inside a task
+2025-09-18 01:47:07,277 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Timeout context manager should be used inside a task
+2025-09-18 01:47:07,284 - providers.real_exchange_provider - ERROR - Error fetching from gate: Timeout context manager should be used inside a task
+2025-09-18 01:47:07,297 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Timeout context manager should be used inside a task
+2025-09-18 01:47:07,301 - providers.real_exchange_provider - WARNING - No real data available for BTC/USDT, using mock data
+2025-09-18 01:47:07,308 - providers.real_data_service - ERROR - 获取市场数据失败: Task <Task pending name='Task-8317' coro=<RealDataService.get_price_matrix() running at C:\Users\admin\Downloads\ti-main\src\providers\real_data_service.py:372>> got Future <Task pending name='Task-8323' coro=<_wait_for_close() running at C:\Users\admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\aiohttp\connector.py:138> wait_for=<_GatheringFuture pending cb=[Task.__wakeup()]>> attached to a different loop
+2025-09-18 01:47:07,429 - providers.real_exchange_provider - ERROR - Error fetching from binance: Session is closed
+2025-09-18 01:47:07,537 - providers.real_exchange_provider - ERROR - Error fetching from okx: Session is closed
+2025-09-18 01:47:07,547 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Session is closed
+2025-09-18 01:47:07,630 - providers.real_exchange_provider - ERROR - Error fetching from gate: Session is closed
+2025-09-18 01:47:07,632 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Session is closed
+2025-09-18 01:47:07,632 - providers.real_exchange_provider - WARNING - No real data available for ETH/USDT, using mock data
+2025-09-18 01:47:09,599 - providers.real_exchange_provider - ERROR - Error fetching from gate: 
+2025-09-18 01:47:09,599 - src.providers.real_exchange_info_provider - ERROR - Ping kucoin 失败: 
+2025-09-18 01:47:09,604 - providers.real_exchange_provider - WARNING - No real data available for DOT/USDT, using mock data
+2025-09-18 01:47:09,625 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 01:47:09,626 - providers.real_exchange_provider - ERROR - Error fetching from binance: 'NoneType' object has no attribute 'get'
+2025-09-18 01:47:09,628 - providers.real_exchange_provider - ERROR - Error fetching from okx: 'NoneType' object has no attribute 'get'
+2025-09-18 01:47:09,628 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: 'NoneType' object has no attribute 'get'
+2025-09-18 01:47:09,629 - providers.real_exchange_provider - ERROR - Error fetching from gate: 'NoneType' object has no attribute 'get'
+2025-09-18 01:47:09,632 - providers.real_exchange_provider - ERROR - Error fetching from bybit: 'NoneType' object has no attribute 'get'
+2025-09-18 01:47:09,635 - providers.real_exchange_provider - WARNING - No real data available for AVAX/USDT, using mock data
+2025-09-18 01:47:20,591 - src.providers.real_exchange_info_provider - ERROR - Ping kucoin 失败: 
+2025-09-18 01:47:20,623 - src.providers.real_exchange_info_provider - ERROR - 获取 gate.io 信息失败: 'gate.io'
+2025-09-18 01:47:20,640 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 01:47:22,613 - src.providers.real_exchange_info_provider - ERROR - Ping bybit 失败: 
+2025-09-18 01:47:32,603 - src.providers.real_exchange_info_provider - ERROR - Ping kucoin 失败: 
+2025-09-18 01:47:32,653 - src.providers.real_exchange_info_provider - ERROR - Ping okx 失败: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 01:47:32,654 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 01:47:32,655 - src.providers.real_exchange_info_provider - ERROR - 获取 gate.io 信息失败: 'gate.io'
+2025-09-18 01:47:33,601 - src.providers.real_exchange_info_provider - ERROR - Ping binance 失败: 
+2025-09-18 01:47:33,602 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 01:47:43,592 - src.providers.real_exchange_info_provider - ERROR - Ping binance 失败: 
+2025-09-18 01:47:43,592 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 01:47:43,597 - src.providers.real_exchange_info_provider - ERROR - Ping okx 失败: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 01:47:43,598 - src.providers.real_exchange_info_provider - ERROR - 获取 gate.io 信息失败: 'gate.io'
+2025-09-18 01:47:43,599 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 01:47:43,600 - src.providers.real_exchange_info_provider - ERROR - Ping okx 失败: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 01:47:43,601 - src.providers.real_exchange_info_provider - ERROR - 获取 gate.io 信息失败: 'gate.io'
+2025-09-18 01:47:43,602 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 01:47:44,600 - src.providers.real_exchange_info_provider - ERROR - Ping kucoin 失败: 
+2025-09-18 01:47:44,602 - src.providers.real_exchange_info_provider - ERROR - 获取 huobi 信息失败: 'huobi'
+2025-09-18 01:47:44,602 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 01:47:54,599 - src.providers.real_exchange_info_provider - ERROR - Ping bybit 失败: 
+2025-09-18 01:47:54,601 - src.providers.real_exchange_info_provider - ERROR - 获取 huobi 信息失败: 'huobi'
+2025-09-18 01:47:54,601 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 01:47:55,613 - src.providers.real_exchange_info_provider - ERROR - Ping binance 失败: 
+2025-09-18 01:47:55,618 - src.providers.real_exchange_info_provider - ERROR - 获取 huobi 信息失败: 'huobi'
+2025-09-18 01:47:55,620 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 01:47:55,622 - src.providers.real_exchange_info_provider - ERROR - 获取 gate.io 信息失败: 'gate.io'
+2025-09-18 01:48:05,611 - src.providers.real_exchange_info_provider - ERROR - Ping kucoin 失败: 
+2025-09-18 01:48:06,607 - src.providers.real_exchange_info_provider - ERROR - Ping bybit 失败: 
+2025-09-18 01:48:06,610 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 01:48:16,610 - src.providers.real_exchange_info_provider - ERROR - Ping bybit 失败: 
+2025-09-18 01:48:16,611 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 01:48:17,600 - src.providers.real_exchange_info_provider - ERROR - Ping kucoin 失败: 
+2025-09-18 01:48:27,609 - src.providers.real_exchange_info_provider - ERROR - Ping bybit 失败: 
+2025-09-18 01:48:28,603 - src.providers.real_exchange_info_provider - ERROR - Ping binance 失败: 
+2025-09-18 01:48:28,604 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 01:48:38,605 - src.providers.real_exchange_info_provider - ERROR - Ping kucoin 失败: 
+2025-09-18 01:48:38,607 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 01:48:38,608 - src.providers.real_exchange_info_provider - ERROR - 获取 gate.io 信息失败: 'gate.io'
+2025-09-18 01:48:38,609 - src.providers.real_exchange_info_provider - ERROR - 获取 huobi 信息失败: 'huobi'
+2025-09-18 01:48:38,609 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 01:48:38,611 - src.providers.real_exchange_info_provider - ERROR - 获取 gate.io 信息失败: 'gate.io'
+2025-09-18 01:48:39,601 - src.providers.real_exchange_info_provider - ERROR - Ping binance 失败: 
+2025-09-18 01:48:49,598 - src.providers.real_exchange_info_provider - ERROR - Ping bybit 失败: 
+2025-09-18 01:48:49,601 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 01:48:50,599 - src.providers.real_exchange_info_provider - ERROR - Ping kucoin 失败: 
+2025-09-18 01:48:50,600 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 01:48:50,602 - src.providers.real_exchange_info_provider - ERROR - 获取 gate.io 信息失败: 'gate.io'
+2025-09-18 01:49:00,602 - src.providers.real_exchange_info_provider - ERROR - Ping bybit 失败: 
+2025-09-18 01:49:01,598 - src.providers.real_exchange_info_provider - ERROR - Ping kucoin 失败: 
+2025-09-18 01:49:01,598 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 01:49:11,598 - src.providers.real_exchange_info_provider - ERROR - Ping binance 失败: 
+2025-09-18 01:49:11,613 - src.providers.real_exchange_info_provider - ERROR - Ping kucoin 失败: 
+2025-09-18 01:49:11,614 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 01:49:11,649 - src.providers.real_exchange_info_provider - ERROR - Ping okx 失败: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 01:49:11,649 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 01:49:11,650 - src.providers.real_exchange_info_provider - ERROR - 获取 huobi 信息失败: 'huobi'
+2025-09-18 01:49:22,602 - src.providers.real_exchange_info_provider - ERROR - Ping kucoin 失败: 
+2025-09-18 01:49:22,602 - src.providers.real_exchange_info_provider - ERROR - Ping binance 失败: 
+2025-09-18 01:49:22,603 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 01:49:33,598 - src.providers.real_exchange_info_provider - ERROR - Ping kucoin 失败: 
+2025-09-18 01:49:33,599 - src.providers.real_exchange_info_provider - ERROR - Ping kucoin 失败: 
+2025-09-18 01:49:33,599 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 01:49:33,600 - src.providers.real_exchange_info_provider - ERROR - 获取 huobi 信息失败: 'huobi'
+2025-09-18 01:49:33,600 - src.providers.real_exchange_info_provider - ERROR - 获取 gate.io 信息失败: 'gate.io'
+2025-09-18 01:49:33,601 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 01:49:44,606 - src.providers.real_exchange_info_provider - ERROR - Ping kucoin 失败: 
+2025-09-18 01:49:44,606 - src.providers.real_exchange_info_provider - ERROR - Ping bybit 失败: 
+2025-09-18 01:49:44,607 - src.providers.real_exchange_info_provider - ERROR - 获取 huobi 信息失败: 'huobi'
+2025-09-18 01:49:44,609 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 01:49:44,609 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 01:49:44,633 - src.providers.real_exchange_info_provider - ERROR - Ping okx 失败: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 01:49:44,638 - src.providers.real_exchange_info_provider - ERROR - 获取 gate.io 信息失败: 'gate.io'
+2025-09-18 01:49:44,639 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 01:49:44,647 - src.providers.real_exchange_info_provider - ERROR - 获取 huobi 信息失败: 'huobi'
+2025-09-18 01:49:55,597 - src.providers.real_exchange_info_provider - ERROR - Ping binance 失败: 
+2025-09-18 01:49:55,598 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 01:49:55,602 - src.providers.real_exchange_info_provider - ERROR - Ping okx 失败: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 01:50:06,597 - src.providers.real_exchange_info_provider - ERROR - Ping bybit 失败: 
+2025-09-18 01:50:06,598 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 01:50:06,599 - src.providers.real_exchange_info_provider - ERROR - 获取 gate.io 信息失败: 'gate.io'
+2025-09-18 01:50:06,603 - src.providers.real_exchange_info_provider - ERROR - Ping okx 失败: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 01:50:06,604 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 01:51:17,483 - src.utils.logging_utils - WARNING - 配置文件不存在: config/app_config.json，使用默认配置
+2025-09-18 01:51:17,508 - src.utils.logging_utils - INFO - 配置管理器初始化完成
+2025-09-18 01:51:17,630 - src.utils.logging_utils - INFO - 性能监控已启动
+2025-09-18 01:51:18,762 - src.utils.dependency_manager - INFO - 依赖 ccxt 可用
+2025-09-18 01:51:18,769 - src.utils.dependency_manager - WARNING - 依赖 ccxt-pro 不可用: 实时数据流功能已禁用，使用模拟数据模式
+2025-09-18 01:51:18,779 - src.utils.dependency_manager - WARNING - 依赖 TA-Lib 不可用: 高级技术指标功能已禁用，使用基础指标
+2025-09-18 01:51:18,779 - src.utils.dependency_manager - INFO - 依赖 Redis 可用
+2025-09-18 01:51:18,783 - providers.real_data_service - INFO - 多源加密货币数据提供者已初始化
+2025-09-18 01:51:18,784 - providers.real_data_service - INFO - 真实交易所数据提供者已初始化
+2025-09-18 01:51:18,833 - providers.ccxt_enhanced - INFO - Initialized Binance exchange
+2025-09-18 01:51:18,875 - providers.ccxt_enhanced - INFO - Initialized OKX exchange
+2025-09-18 01:51:18,901 - providers.ccxt_enhanced - INFO - Initialized KuCoin exchange
+2025-09-18 01:51:18,925 - providers.ccxt_enhanced - INFO - Initialized Gate.io exchange
+2025-09-18 01:51:18,953 - providers.ccxt_enhanced - INFO - Initialized Crypto.com exchange
+2025-09-18 01:51:18,954 - providers.real_data_service - INFO - CCXT 可用，启用真实交易所数据功能
+2025-09-18 01:51:19,138 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 01:51:24,058 - providers.real_exchange_provider - ERROR - Error fetching from binance: Connection timeout to host https://api.binance.com/api/v3/ticker/24hr?symbol=BTCUSDT
+2025-09-18 01:51:24,090 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=BTC-USDT
+2025-09-18 01:51:24,091 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=BTCUSDT
+2025-09-18 01:51:24,168 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 01:51:29,104 - providers.real_exchange_provider - ERROR - Error fetching from binance: Connection timeout to host https://api.binance.com/api/v3/ticker/24hr?symbol=ETHUSDT
+2025-09-18 01:51:29,116 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=ETH-USDT
+2025-09-18 01:51:29,117 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=ETHUSDT
+2025-09-18 01:51:29,198 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 01:51:34,146 - providers.real_exchange_provider - ERROR - Error fetching from binance: Connection timeout to host https://api.binance.com/api/v3/ticker/24hr?symbol=BNBUSDT
+2025-09-18 01:51:34,148 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=BNB-USDT
+2025-09-18 01:51:34,177 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=BNBUSDT
+2025-09-18 01:51:34,301 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 01:51:39,209 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=ADA-USDT
+2025-09-18 01:51:39,212 - providers.real_exchange_provider - ERROR - Error fetching from binance: Connection timeout to host https://api.binance.com/api/v3/ticker/24hr?symbol=ADAUSDT
+2025-09-18 01:51:39,213 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=ADAUSDT
+2025-09-18 01:51:39,309 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 01:51:44,242 - providers.real_exchange_provider - ERROR - Error fetching from binance: Connection timeout to host https://api.binance.com/api/v3/ticker/24hr?symbol=SOLUSDT
+2025-09-18 01:51:44,242 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=SOL-USDT
+2025-09-18 01:51:44,243 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=SOLUSDT
+2025-09-18 01:51:45,213 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 01:51:45,630 - providers.real_exchange_provider - WARNING - API gate returned status 400
+2025-09-18 01:51:50,154 - providers.real_exchange_provider - ERROR - Error fetching from binance: Connection timeout to host https://api.binance.com/api/v3/ticker/24hr?symbol=MATICUSDT
+2025-09-18 01:51:50,156 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=MATIC-USDT
+2025-09-18 01:51:50,157 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=MATICUSDT
+2025-09-18 01:51:50,157 - providers.real_exchange_provider - WARNING - No real data available for MATIC/USDT, using mock data
+2025-09-18 01:51:50,161 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 01:51:55,152 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=DOT-USDT
+2025-09-18 01:51:55,152 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=DOTUSDT
+2025-09-18 01:51:55,153 - providers.real_exchange_provider - ERROR - Error fetching from binance: Connection timeout to host https://api.binance.com/api/v3/ticker/24hr?symbol=DOTUSDT
+2025-09-18 01:51:55,159 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 01:52:00,150 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=AVAXUSDT
+2025-09-18 01:52:00,150 - providers.real_exchange_provider - ERROR - Error fetching from binance: Connection timeout to host https://api.binance.com/api/v3/ticker/24hr?symbol=AVAXUSDT
+2025-09-18 01:52:00,151 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=AVAX-USDT
+2025-09-18 01:52:00,324 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 01:52:05,236 - providers.real_exchange_provider - ERROR - Error fetching from binance: Connection timeout to host https://api.binance.com/api/v3/ticker/24hr?symbol=BTCUSDT
+2025-09-18 01:52:05,267 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=BTC-USDT
+2025-09-18 01:52:05,268 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=BTCUSDT
+2025-09-18 01:52:05,386 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 01:52:10,311 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=ETH-USDT
+2025-09-18 01:52:10,312 - providers.real_exchange_provider - ERROR - Error fetching from binance: Connection timeout to host https://api.binance.com/api/v3/ticker/24hr?symbol=ETHUSDT
+2025-09-18 01:52:10,313 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=ETHUSDT
+2025-09-18 01:54:06,930 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 01:54:11,875 - providers.real_exchange_provider - ERROR - Error fetching from binance: Connection timeout to host https://api.binance.com/api/v3/ticker/24hr?symbol=BTCUSDT
+2025-09-18 01:54:11,876 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=BTC-USDT
+2025-09-18 01:54:11,876 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=BTCUSDT
+2025-09-18 01:54:11,946 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 01:54:16,919 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=ETH-USDT
+2025-09-18 01:54:16,919 - providers.real_exchange_provider - ERROR - Error fetching from binance: Connection timeout to host https://api.binance.com/api/v3/ticker/24hr?symbol=ETHUSDT
+2025-09-18 01:54:16,920 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=ETHUSDT
+2025-09-18 01:54:17,007 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 01:54:21,970 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=BNB-USDT
+2025-09-18 01:54:21,971 - providers.real_exchange_provider - ERROR - Error fetching from binance: Connection timeout to host https://api.binance.com/api/v3/ticker/24hr?symbol=BNBUSDT
+2025-09-18 01:54:21,971 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=BNBUSDT
+2025-09-18 01:54:22,210 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 01:54:27,008 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=ADA-USDT
+2025-09-18 01:54:27,009 - providers.real_exchange_provider - ERROR - Error fetching from binance: Connection timeout to host https://api.binance.com/api/v3/ticker/24hr?symbol=ADAUSDT
+2025-09-18 01:54:27,009 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=ADAUSDT
+2025-09-18 01:54:27,067 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 01:54:32,028 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=SOL-USDT
+2025-09-18 01:54:32,029 - providers.real_exchange_provider - ERROR - Error fetching from binance: Connection timeout to host https://api.binance.com/api/v3/ticker/24hr?symbol=SOLUSDT
+2025-09-18 01:54:32,059 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=SOLUSDT
+2025-09-18 01:54:33,185 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 01:54:33,658 - providers.real_exchange_provider - WARNING - API gate returned status 400
+2025-09-18 01:54:38,135 - providers.real_exchange_provider - ERROR - Error fetching from binance: Connection timeout to host https://api.binance.com/api/v3/ticker/24hr?symbol=MATICUSDT
+2025-09-18 01:54:38,140 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=MATIC-USDT
+2025-09-18 01:54:38,141 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=MATICUSDT
+2025-09-18 01:54:38,143 - providers.real_exchange_provider - WARNING - No real data available for MATIC/USDT, using mock data
+2025-09-18 01:54:38,150 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 01:54:43,150 - providers.real_exchange_provider - ERROR - Error fetching from binance: Connection timeout to host https://api.binance.com/api/v3/ticker/24hr?symbol=DOTUSDT
+2025-09-18 01:54:43,159 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=DOT-USDT
+2025-09-18 01:54:43,160 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=DOTUSDT
+2025-09-18 01:54:43,169 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 01:54:43,362 - providers.real_exchange_provider - ERROR - Error fetching from binance: Cannot connect to host api.binance.com:443 ssl:default [远程主机强迫关闭了一个现有的连接。]
+2025-09-18 01:54:48,170 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=AVAXUSDT
+2025-09-18 01:54:48,171 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=AVAX-USDT
+2025-09-18 01:54:48,770 - providers.real_exchange_provider - ERROR - Error fetching from binance: Cannot connect to host api.binance.com:443 ssl:default [远程主机强迫关闭了一个现有的连接。]
+2025-09-18 01:54:49,033 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 01:54:53,241 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=BTC-USDT
+2025-09-18 01:54:53,242 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=BTCUSDT
+2025-09-18 01:54:53,486 - providers.real_exchange_provider - ERROR - Error fetching from binance: Cannot connect to host api.binance.com:443 ssl:default [远程主机强迫关闭了一个现有的连接。]
+2025-09-18 01:54:53,566 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 01:54:58,275 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=ETH-USDT
+2025-09-18 01:54:58,275 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=ETHUSDT
+2025-09-18 01:54:59,731 - src.providers.real_exchange_info_provider - ERROR - Ping okx 失败: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 01:54:59,766 - src.providers.real_exchange_info_provider - ERROR - 获取 huobi 信息失败: 'huobi'
+2025-09-18 01:54:59,774 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 01:54:59,778 - src.providers.real_exchange_info_provider - ERROR - Ping okx 失败: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 01:54:59,779 - src.providers.real_exchange_info_provider - ERROR - 获取 gate.io 信息失败: 'gate.io'
+2025-09-18 01:54:59,781 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 01:54:59,782 - src.providers.real_exchange_info_provider - ERROR - 获取 gate.io 信息失败: 'gate.io'
+2025-09-18 01:55:10,595 - src.providers.real_exchange_info_provider - ERROR - Ping bybit 失败: 
+2025-09-18 01:55:10,596 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 01:55:10,597 - src.providers.real_exchange_info_provider - ERROR - 获取 gate.io 信息失败: 'gate.io'
+2025-09-18 01:55:10,599 - src.providers.real_exchange_info_provider - ERROR - 获取 huobi 信息失败: 'huobi'
+2025-09-18 01:55:10,600 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 01:55:10,794 - src.providers.real_exchange_info_provider - ERROR - Ping binance 失败: Cannot connect to host api.binance.com:443 ssl:default [远程主机强迫关闭了一个现有的连接。]
+2025-09-18 01:55:10,796 - src.providers.real_exchange_info_provider - ERROR - 获取 huobi 信息失败: 'huobi'
+2025-09-18 01:55:10,799 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 01:55:10,937 - src.providers.real_exchange_info_provider - ERROR - Ping binance 失败: Cannot connect to host api.binance.com:443 ssl:default [远程主机强迫关闭了一个现有的连接。]
+2025-09-18 01:55:21,594 - src.providers.real_exchange_info_provider - ERROR - Ping bybit 失败: 
+2025-09-18 01:55:21,595 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 02:04:15,867 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 02:04:15,955 - providers.real_exchange_provider - ERROR - Error fetching from binance: Cannot connect to host api.binance.com:443 ssl:default [远程主机强迫关闭了一个现有的连接。]
+2025-09-18 02:04:20,774 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=BTC-USDT
+2025-09-18 02:04:20,775 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=BTCUSDT
+2025-09-18 02:04:20,840 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 02:04:20,959 - providers.real_exchange_provider - ERROR - Error fetching from binance: Cannot connect to host api.binance.com:443 ssl:default [远程主机强迫关闭了一个现有的连接。]
+2025-09-18 02:04:25,798 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=ETH-USDT
+2025-09-18 02:04:25,799 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=ETHUSDT
+2025-09-18 02:04:25,872 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 02:04:25,968 - providers.real_exchange_provider - ERROR - Error fetching from binance: Cannot connect to host api.binance.com:443 ssl:default [远程主机强迫关闭了一个现有的连接。]
+2025-09-18 02:04:30,827 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=BNB-USDT
+2025-09-18 02:04:30,828 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=BNBUSDT
+2025-09-18 02:04:30,893 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 02:04:31,002 - providers.real_exchange_provider - ERROR - Error fetching from binance: Cannot connect to host api.binance.com:443 ssl:default [远程主机强迫关闭了一个现有的连接。]
+2025-09-18 02:04:35,859 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=ADA-USDT
+2025-09-18 02:04:35,861 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=ADAUSDT
+2025-09-18 02:04:36,123 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 02:04:36,213 - providers.real_exchange_provider - ERROR - Error fetching from binance: Cannot connect to host api.binance.com:443 ssl:default [远程主机强迫关闭了一个现有的连接。]
+2025-09-18 02:04:40,901 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=SOL-USDT
+2025-09-18 02:04:40,901 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=SOLUSDT
+2025-09-18 02:04:42,188 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 02:04:42,311 - providers.real_exchange_provider - ERROR - Error fetching from binance: Cannot connect to host api.binance.com:443 ssl:default [远程主机强迫关闭了一个现有的连接。]
+2025-09-18 02:04:43,084 - providers.real_exchange_provider - WARNING - API gate returned status 400
+2025-09-18 02:04:47,132 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=MATIC-USDT
+2025-09-18 02:04:47,151 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=MATICUSDT
+2025-09-18 02:04:47,156 - providers.real_exchange_provider - WARNING - No real data available for MATIC/USDT, using mock data
+2025-09-18 02:04:47,162 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 02:04:47,301 - providers.real_exchange_provider - ERROR - Error fetching from binance: Cannot connect to host api.binance.com:443 ssl:default [远程主机强迫关闭了一个现有的连接。]
+2025-09-18 02:04:52,172 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=DOTUSDT
+2025-09-18 02:04:52,173 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=DOT-USDT
+2025-09-18 02:04:52,178 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 02:04:52,311 - providers.real_exchange_provider - ERROR - Error fetching from binance: Cannot connect to host api.binance.com:443 ssl:default [远程主机强迫关闭了一个现有的连接。]
+2025-09-18 02:04:57,181 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=AVAX-USDT
+2025-09-18 02:04:57,181 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=AVAXUSDT
+2025-09-18 02:04:57,442 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 02:05:02,238 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=BTC-USDT
+2025-09-18 02:05:02,239 - providers.real_exchange_provider - ERROR - Error fetching from binance: Connection timeout to host https://api.binance.com/api/v3/ticker/24hr?symbol=BTCUSDT
+2025-09-18 02:05:02,240 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=BTCUSDT
+2025-09-18 02:05:02,324 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 02:05:07,274 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=ETH-USDT
+2025-09-18 02:05:07,302 - providers.real_exchange_provider - ERROR - Error fetching from binance: Connection timeout to host https://api.binance.com/api/v3/ticker/24hr?symbol=ETHUSDT
+2025-09-18 02:05:07,344 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=ETHUSDT
+2025-09-18 02:05:08,606 - src.providers.real_exchange_info_provider - ERROR - Ping okx 失败: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 02:05:08,607 - src.providers.real_exchange_info_provider - ERROR - 获取 huobi 信息失败: 'huobi'
+2025-09-18 02:05:08,608 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 02:05:08,610 - src.providers.real_exchange_info_provider - ERROR - 获取 huobi 信息失败: 'huobi'
+2025-09-18 02:05:08,611 - src.providers.real_exchange_info_provider - ERROR - 获取 gate.io 信息失败: 'gate.io'
+2025-09-18 02:05:08,612 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 02:05:08,613 - src.providers.real_exchange_info_provider - ERROR - 获取 huobi 信息失败: 'huobi'
+2025-09-18 02:05:19,604 - src.providers.real_exchange_info_provider - ERROR - Ping kucoin 失败: 
+2025-09-18 02:05:19,604 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 02:05:30,602 - src.providers.real_exchange_info_provider - ERROR - Ping kucoin 失败: 
+2025-09-18 02:05:30,605 - src.providers.real_exchange_info_provider - ERROR - 获取 huobi 信息失败: 'huobi'
+2025-09-18 02:05:30,607 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 02:05:30,610 - src.providers.real_exchange_info_provider - ERROR - 获取 huobi 信息失败: 'huobi'
+2025-09-18 02:05:30,616 - src.providers.real_exchange_info_provider - ERROR - Ping okx 失败: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 02:05:30,620 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 02:05:30,621 - src.providers.real_exchange_info_provider - ERROR - 获取 gate.io 信息失败: 'gate.io'
+2025-09-18 02:05:41,612 - src.providers.real_exchange_info_provider - ERROR - Ping kucoin 失败: 
+2025-09-18 02:05:41,613 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 02:05:41,618 - src.providers.real_exchange_info_provider - ERROR - Ping okx 失败: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 02:05:41,619 - src.providers.real_exchange_info_provider - ERROR - 获取 huobi 信息失败: 'huobi'
+2025-09-18 02:05:41,620 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 02:05:52,604 - src.providers.real_exchange_info_provider - ERROR - Ping bybit 失败: 
+2025-09-18 02:05:52,618 - src.providers.real_exchange_info_provider - ERROR - 获取 huobi 信息失败: 'huobi'
+2025-09-18 02:05:52,623 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 02:06:03,600 - src.providers.real_exchange_info_provider - ERROR - Ping bybit 失败: 
+2025-09-18 02:06:03,648 - src.providers.real_exchange_info_provider - ERROR - Ping okx 失败: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 02:06:03,652 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 02:06:14,601 - src.providers.real_exchange_info_provider - ERROR - Ping binance 失败: 
+2025-09-18 02:06:14,605 - src.providers.real_exchange_info_provider - ERROR - Ping okx 失败: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 02:06:14,606 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 02:06:14,608 - src.providers.real_exchange_info_provider - ERROR - Ping okx 失败: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 02:06:14,609 - src.providers.real_exchange_info_provider - ERROR - 获取 gate.io 信息失败: 'gate.io'
+2025-09-18 02:06:14,610 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 02:06:25,610 - src.providers.real_exchange_info_provider - ERROR - Ping bybit 失败: 
+2025-09-18 02:06:25,611 - src.providers.real_exchange_info_provider - ERROR - 获取 gate.io 信息失败: 'gate.io'
+2025-09-18 02:06:25,612 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 02:13:12,225 - src.utils.logging_utils - WARNING - 配置文件不存在: config/app_config.json，使用默认配置
+2025-09-18 02:13:12,226 - src.utils.logging_utils - INFO - 配置管理器初始化完成
+2025-09-18 02:13:12,348 - src.utils.logging_utils - INFO - 性能监控已启动
+2025-09-18 02:13:13,589 - src.utils.dependency_manager - INFO - 依赖 ccxt 可用
+2025-09-18 02:13:13,652 - src.utils.dependency_manager - WARNING - 依赖 ccxt-pro 不可用: 实时数据流功能已禁用，使用模拟数据模式
+2025-09-18 02:13:13,703 - src.utils.dependency_manager - WARNING - 依赖 TA-Lib 不可用: 高级技术指标功能已禁用，使用基础指标
+2025-09-18 02:13:13,713 - src.utils.dependency_manager - INFO - 依赖 Redis 可用
+2025-09-18 02:13:13,746 - providers.real_data_service - INFO - 多源加密货币数据提供者已初始化
+2025-09-18 02:13:13,762 - providers.real_data_service - INFO - 真实交易所数据提供者已初始化
+2025-09-18 02:13:13,814 - providers.ccxt_enhanced - INFO - Initialized Binance exchange
+2025-09-18 02:13:13,844 - providers.ccxt_enhanced - INFO - Initialized OKX exchange
+2025-09-18 02:13:13,865 - providers.ccxt_enhanced - INFO - Initialized KuCoin exchange
+2025-09-18 02:13:13,891 - providers.ccxt_enhanced - INFO - Initialized Gate.io exchange
+2025-09-18 02:13:13,911 - providers.ccxt_enhanced - INFO - Initialized Crypto.com exchange
+2025-09-18 02:13:13,921 - providers.real_data_service - INFO - CCXT 可用，启用真实交易所数据功能
+2025-09-18 02:13:14,102 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 02:13:19,023 - providers.real_exchange_provider - ERROR - Error fetching from binance: Connection timeout to host https://api.binance.com/api/v3/ticker/24hr?symbol=BTCUSDT
+2025-09-18 02:13:19,025 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=BTC-USDT
+2025-09-18 02:13:19,025 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=BTCUSDT
+2025-09-18 02:13:19,117 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 02:13:24,054 - providers.real_exchange_provider - ERROR - Error fetching from binance: Connection timeout to host https://api.binance.com/api/v3/ticker/24hr?symbol=ETHUSDT
+2025-09-18 02:13:24,054 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=ETH-USDT
+2025-09-18 02:13:24,056 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=ETHUSDT
+2025-09-18 02:13:24,175 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 02:13:29,094 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=BNB-USDT
+2025-09-18 02:13:29,094 - providers.real_exchange_provider - ERROR - Error fetching from binance: Connection timeout to host https://api.binance.com/api/v3/ticker/24hr?symbol=BNBUSDT
+2025-09-18 02:13:29,095 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=BNBUSDT
+2025-09-18 02:13:29,193 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 02:13:34,105 - providers.real_exchange_provider - ERROR - Error fetching from binance: Connection timeout to host https://api.binance.com/api/v3/ticker/24hr?symbol=ADAUSDT
+2025-09-18 02:13:34,137 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=ADA-USDT
+2025-09-18 02:13:34,140 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=ADAUSDT
+2025-09-18 02:13:34,244 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 02:13:39,167 - providers.real_exchange_provider - ERROR - Error fetching from binance: Connection timeout to host https://api.binance.com/api/v3/ticker/24hr?symbol=SOLUSDT
+2025-09-18 02:13:39,167 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=SOL-USDT
+2025-09-18 02:13:39,168 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=SOLUSDT
+2025-09-18 02:13:40,286 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 02:13:40,694 - providers.real_exchange_provider - WARNING - API gate returned status 400
+2025-09-18 02:13:45,204 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=MATIC-USDT
+2025-09-18 02:13:45,205 - providers.real_exchange_provider - ERROR - Error fetching from binance: Connection timeout to host https://api.binance.com/api/v3/ticker/24hr?symbol=MATICUSDT
+2025-09-18 02:13:45,251 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=MATICUSDT
+2025-09-18 02:13:45,252 - providers.real_exchange_provider - WARNING - No real data available for MATIC/USDT, using mock data
+2025-09-18 02:13:45,258 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 02:13:50,246 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=DOTUSDT
+2025-09-18 02:13:50,248 - providers.real_exchange_provider - ERROR - Error fetching from binance: Connection timeout to host https://api.binance.com/api/v3/ticker/24hr?symbol=DOTUSDT
+2025-09-18 02:13:50,249 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=DOT-USDT
+2025-09-18 02:13:50,253 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 02:13:55,249 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=AVAXUSDT
+2025-09-18 02:13:55,251 - providers.real_exchange_provider - ERROR - Error fetching from binance: Connection timeout to host https://api.binance.com/api/v3/ticker/24hr?symbol=AVAXUSDT
+2025-09-18 02:13:55,252 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=AVAX-USDT
+2025-09-18 02:13:55,461 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 02:14:00,400 - providers.real_exchange_provider - ERROR - Error fetching from binance: Connection timeout to host https://api.binance.com/api/v3/ticker/24hr?symbol=BTCUSDT
+2025-09-18 02:14:00,401 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=BTC-USDT
+2025-09-18 02:14:00,445 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=BTCUSDT
+2025-09-18 02:14:00,535 - providers.real_exchange_provider - ERROR - Error fetching from okx: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 02:14:02,649 - src.providers.real_data_service - INFO - 多源加密货币数据提供者已初始化
+2025-09-18 02:14:02,649 - src.providers.real_data_service - INFO - 真实交易所数据提供者已初始化
+2025-09-18 02:14:02,669 - src.providers.ccxt_enhanced - INFO - Initialized Binance exchange
+2025-09-18 02:14:02,684 - src.providers.ccxt_enhanced - INFO - Initialized OKX exchange
+2025-09-18 02:14:02,697 - src.providers.ccxt_enhanced - INFO - Initialized KuCoin exchange
+2025-09-18 02:14:02,711 - src.providers.ccxt_enhanced - INFO - Initialized Gate.io exchange
+2025-09-18 02:14:02,721 - src.providers.ccxt_enhanced - INFO - Initialized Crypto.com exchange
+2025-09-18 02:14:02,721 - src.providers.real_data_service - INFO - CCXT 可用，启用真实交易所数据功能
+2025-09-18 02:14:05,482 - providers.real_exchange_provider - ERROR - Error fetching from binance: Connection timeout to host https://api.binance.com/api/v3/ticker/24hr?symbol=ETHUSDT
+2025-09-18 02:14:05,483 - providers.real_exchange_provider - ERROR - Error fetching from kucoin: Connection timeout to host https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=ETH-USDT
+2025-09-18 02:14:05,483 - providers.real_exchange_provider - ERROR - Error fetching from bybit: Connection timeout to host https://api.bybit.com/v5/market/tickers?category=spot&symbol=ETHUSDT
+2025-09-18 02:14:16,385 - src.providers.real_exchange_info_provider - ERROR - Ping okx 失败: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 02:14:26,607 - src.providers.real_exchange_info_provider - ERROR - Ping kucoin 失败: 
+2025-09-18 02:14:26,761 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 02:14:27,017 - src.providers.real_exchange_info_provider - ERROR - Ping okx 失败: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 02:14:27,188 - src.providers.real_exchange_info_provider - ERROR - 获取 gate.io 信息失败: 'gate.io'
+2025-09-18 02:14:27,312 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 02:14:27,321 - src.providers.real_exchange_info_provider - ERROR - Ping okx 失败: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 02:14:37,603 - src.providers.real_exchange_info_provider - ERROR - Ping kucoin 失败: 
+2025-09-18 02:14:37,698 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 02:14:42,165 - src.providers.real_exchange_info_provider - ERROR - 获取 huobi 信息失败: 'huobi'
+2025-09-18 02:14:45,746 - src.providers.real_exchange_info_provider - ERROR - 获取 gate.io 信息失败: 'gate.io'
+2025-09-18 02:14:48,671 - src.providers.real_exchange_info_provider - ERROR - Ping bybit 失败: 
+2025-09-18 02:14:48,747 - src.providers.real_exchange_info_provider - ERROR - 获取 gate.io 信息失败: 'gate.io'
+2025-09-18 02:14:48,796 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 02:14:48,858 - src.providers.real_exchange_info_provider - ERROR - 获取 huobi 信息失败: 'huobi'
+2025-09-18 02:14:49,078 - src.providers.real_exchange_info_provider - ERROR - Ping okx 失败: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 02:14:49,142 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 02:14:49,192 - src.providers.real_exchange_info_provider - ERROR - 获取 gate.io 信息失败: 'gate.io'
+2025-09-18 02:14:49,206 - src.providers.real_exchange_info_provider - ERROR - 获取 huobi 信息失败: 'huobi'
+2025-09-18 02:14:49,251 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 02:14:51,211 - src.providers.real_exchange_info_provider - ERROR - Ping okx 失败: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 02:14:52,591 - src.providers.real_exchange_info_provider - ERROR - Ping kucoin 失败: 
+2025-09-18 02:14:52,592 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 02:14:52,614 - src.providers.real_exchange_info_provider - ERROR - Ping okx 失败: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 02:14:52,615 - src.providers.real_exchange_info_provider - ERROR - 获取 gate.io 信息失败: 'gate.io'
+2025-09-18 02:14:52,616 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 02:14:52,617 - src.providers.real_exchange_info_provider - ERROR - 获取 huobi 信息失败: 'huobi'
+2025-09-18 02:14:52,619 - src.providers.real_exchange_info_provider - ERROR - Ping okx 失败: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 02:14:52,621 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 02:14:52,623 - src.providers.real_exchange_info_provider - ERROR - 获取 huobi 信息失败: 'huobi'
+2025-09-18 02:14:56,599 - src.providers.real_exchange_info_provider - ERROR - Ping binance 失败: 
+2025-09-18 02:14:56,600 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 02:15:01,599 - src.providers.real_exchange_info_provider - ERROR - Ping kucoin 失败: 
+2025-09-18 02:15:01,600 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 02:15:03,608 - src.providers.real_exchange_info_provider - ERROR - Ping binance 失败: 
+2025-09-18 02:15:03,609 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 02:15:03,611 - src.providers.real_exchange_info_provider - ERROR - 获取 gate.io 信息失败: 'gate.io'
+2025-09-18 02:15:03,612 - src.providers.real_exchange_info_provider - ERROR - 获取 huobi 信息失败: 'huobi'
+2025-09-18 02:15:03,613 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 02:15:07,606 - src.providers.real_exchange_info_provider - ERROR - Ping kucoin 失败: 
+2025-09-18 02:15:08,228 - src.providers.real_exchange_info_provider - ERROR - Ping bybit 失败: Cannot connect to host api.bybit.com:443 ssl:default [远程主机强迫关闭了一个现有的连接。]
+2025-09-18 02:15:08,229 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 02:15:12,609 - src.providers.real_exchange_info_provider - ERROR - Ping kucoin 失败: 
+2025-09-18 02:15:12,610 - src.providers.real_exchange_info_provider - ERROR - 获取 gate.io 信息失败: 'gate.io'
+2025-09-18 02:15:12,611 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 02:15:12,871 - src.providers.real_exchange_info_provider - ERROR - Ping okx 失败: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 02:15:14,601 - src.providers.real_exchange_info_provider - ERROR - Ping kucoin 失败: 
+2025-09-18 02:15:14,602 - src.providers.real_exchange_info_provider - ERROR - 获取 huobi 信息失败: 'huobi'
+2025-09-18 02:15:14,603 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 02:15:16,625 - src.providers.real_exchange_info_provider - ERROR - Ping bybit 失败: Cannot connect to host api.bybit.com:443 ssl:default [远程主机强迫关闭了一个现有的连接。]
+2025-09-18 02:15:17,601 - src.providers.free_api - WARNING - CoinGecko API attempt 1 failed: Connection timeout to host https://api.coingecko.com/api/v3/simple/price?ids=btc,eth,bnb,ada,sol,dot,avax,matic,link,uni,ltc,xrp,doge,atom,near,algo,vet,fil,etc,xlm,mana,sand,axs,theta,flow,chz,enj,bat,zil,qtum&vs_currencies=usd,btc,eth&include_24hr_change=true&include_24hr_vol=true
+2025-09-18 02:15:18,600 - src.providers.real_exchange_info_provider - ERROR - Ping binance 失败: 
+2025-09-18 02:15:18,629 - src.providers.real_exchange_info_provider - ERROR - Ping okx 失败: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 02:15:18,633 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 02:15:18,646 - src.providers.free_api - ERROR - Error fetching CoinGecko prices: Session is closed
+2025-09-18 02:15:19,818 - src.providers.real_exchange_info_provider - ERROR - Ping bybit 失败: Cannot connect to host api.bybit.com:443 ssl:default [远程主机强迫关闭了一个现有的连接。]
+2025-09-18 02:15:19,819 - src.providers.real_exchange_info_provider - ERROR - 获取 gate.io 信息失败: 'gate.io'
+2025-09-18 02:15:19,819 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 02:15:23,603 - src.providers.real_exchange_info_provider - ERROR - Ping binance 失败: 
+2025-09-18 02:15:23,604 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 02:15:27,610 - src.providers.real_exchange_info_provider - ERROR - Ping binance 失败: 
+2025-09-18 02:15:27,615 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 02:15:27,616 - src.providers.real_exchange_info_provider - ERROR - 获取 huobi 信息失败: 'huobi'
+2025-09-18 02:15:27,618 - src.providers.real_exchange_info_provider - ERROR - 获取 gate.io 信息失败: 'gate.io'
+2025-09-18 02:15:27,618 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 02:15:30,608 - src.providers.real_exchange_info_provider - ERROR - Ping kucoin 失败: 
+2025-09-18 02:15:34,589 - src.providers.real_exchange_info_provider - ERROR - Ping binance 失败: 
+2025-09-18 02:15:34,590 - src.providers.real_exchange_info_provider - ERROR - 获取 gate.io 信息失败: 'gate.io'
+2025-09-18 02:15:34,590 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 02:15:37,610 - src.providers.free_api - WARNING - CoinGecko API attempt 1 failed: Connection timeout to host https://api.coingecko.com/api/v3/simple/price?ids=btc,eth,bnb,ada,sol,dot,avax,matic,link,uni,atom,fil,algo,vet,xtz,theta,aave,mkr,comp,snx,yfi,crv,sushi,ltc,xrp,doge,near,mana,sand,axs&vs_currencies=usd,btc,eth&include_24hr_change=true&include_24hr_vol=true
+2025-09-18 02:15:38,623 - src.providers.free_api - ERROR - Error fetching CoinGecko prices: Session is closed
+2025-09-18 02:15:41,611 - src.providers.real_exchange_info_provider - ERROR - Ping binance 失败: 
+2025-09-18 02:15:41,612 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 02:15:41,613 - src.providers.real_exchange_info_provider - ERROR - 获取 gate.io 信息失败: 'gate.io'
+2025-09-18 02:15:41,619 - src.providers.real_exchange_info_provider - ERROR - Ping okx 失败: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 02:15:41,633 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 02:15:42,259 - src.providers.real_exchange_info_provider - ERROR - Ping bybit 失败: Cannot connect to host api.bybit.com:443 ssl:default [远程主机强迫关闭了一个现有的连接。]
+2025-09-18 02:15:44,598 - src.providers.real_exchange_info_provider - ERROR - Ping kucoin 失败: 
+2025-09-18 02:15:52,600 - src.providers.real_exchange_info_provider - ERROR - Ping binance 失败: 
+2025-09-18 02:15:52,601 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 02:15:52,602 - src.providers.real_exchange_info_provider - ERROR - 获取 huobi 信息失败: 'huobi'
+2025-09-18 02:15:54,609 - src.providers.real_exchange_info_provider - ERROR - Ping binance 失败: 
+2025-09-18 02:15:54,610 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 02:15:54,611 - src.providers.real_exchange_info_provider - ERROR - 获取 huobi 信息失败: 'huobi'
+2025-09-18 02:15:54,668 - src.providers.real_exchange_info_provider - ERROR - Ping okx 失败: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 02:15:54,668 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 02:16:03,620 - src.providers.real_exchange_info_provider - ERROR - Ping binance 失败: 
+2025-09-18 02:16:03,624 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 02:16:05,590 - src.providers.real_exchange_info_provider - ERROR - Ping kucoin 失败: 
+2025-09-18 02:16:14,600 - src.providers.real_exchange_info_provider - ERROR - Ping kucoin 失败: 
+2025-09-18 02:16:14,600 - src.providers.real_exchange_info_provider - ERROR - 获取 gate.io 信息失败: 'gate.io'
+2025-09-18 02:16:14,601 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 02:16:14,601 - src.providers.real_exchange_info_provider - ERROR - 获取 gate.io 信息失败: 'gate.io'
+2025-09-18 02:16:15,594 - src.providers.real_exchange_info_provider - ERROR - Ping binance 失败: 
+2025-09-18 02:16:15,595 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 02:16:15,596 - src.providers.real_exchange_info_provider - ERROR - 获取 huobi 信息失败: 'huobi'
+2025-09-18 02:16:16,321 - src.providers.real_exchange_info_provider - ERROR - Ping bybit 失败: Cannot connect to host api.bybit.com:443 ssl:default [远程主机强迫关闭了一个现有的连接。]
+2025-09-18 02:16:16,323 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 02:16:25,599 - src.providers.real_exchange_info_provider - ERROR - Ping kucoin 失败: 
+2025-09-18 02:16:25,600 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 02:16:25,607 - src.providers.real_exchange_info_provider - ERROR - Ping okx 失败: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 02:16:25,608 - src.providers.real_exchange_info_provider - ERROR - 获取 gate.io 信息失败: 'gate.io'
+2025-09-18 02:16:25,608 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 02:16:26,166 - src.providers.real_exchange_info_provider - ERROR - Ping bybit 失败: Cannot connect to host api.bybit.com:443 ssl:default [远程主机强迫关闭了一个现有的连接。]
+2025-09-18 02:16:26,167 - src.providers.real_exchange_info_provider - ERROR - 获取 huobi 信息失败: 'huobi'
+2025-09-18 02:16:26,167 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 02:16:26,601 - src.providers.real_exchange_info_provider - ERROR - Ping kucoin 失败: 
+2025-09-18 02:16:26,607 - src.providers.real_exchange_info_provider - ERROR - Ping okx 失败: Cannot connect to host www.okx.com:443 ssl:default [Connect call failed ('169.254.0.2', 443)]
+2025-09-18 02:16:26,611 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 02:16:26,729 - src.providers.real_exchange_info_provider - ERROR - Ping bybit 失败: Cannot connect to host api.bybit.com:443 ssl:default [远程主机强迫关闭了一个现有的连接。]
+2025-09-18 02:16:27,163 - src.providers.real_exchange_info_provider - ERROR - Ping bybit 失败: Cannot connect to host api.bybit.com:443 ssl:default [远程主机强迫关闭了一个现有的连接。]
+2025-09-18 02:16:27,164 - src.providers.real_exchange_info_provider - ERROR - 获取 gate.io 信息失败: 'gate.io'
+2025-09-18 02:16:27,164 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 02:16:27,165 - src.providers.real_exchange_info_provider - ERROR - 获取 huobi 信息失败: 'huobi'
+2025-09-18 02:16:27,167 - src.providers.real_exchange_info_provider - ERROR - 获取 gate.io 信息失败: 'gate.io'
+2025-09-18 02:16:27,167 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 02:16:37,596 - src.providers.real_exchange_info_provider - ERROR - Ping binance 失败: 
+2025-09-18 02:16:37,596 - src.providers.real_exchange_info_provider - ERROR - Ping kucoin 失败: 
+2025-09-18 02:16:37,597 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 02:16:37,598 - src.providers.real_exchange_info_provider - ERROR - 获取 gate.io 信息失败: 'gate.io'
+2025-09-18 02:16:38,129 - src.providers.real_exchange_info_provider - ERROR - Ping bybit 失败: Cannot connect to host api.bybit.com:443 ssl:default [远程主机强迫关闭了一个现有的连接。]
+2025-09-18 02:16:38,129 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 02:16:38,154 - src.providers.real_exchange_info_provider - ERROR - Ping bybit 失败: Cannot connect to host api.bybit.com:443 ssl:default [远程主机强迫关闭了一个现有的连接。]
+2025-09-18 02:16:38,155 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 02:16:48,596 - src.providers.real_exchange_info_provider - ERROR - Ping kucoin 失败: 
+2025-09-18 02:16:48,599 - src.providers.real_exchange_info_provider - ERROR - 获取 huobi 信息失败: 'huobi'
+2025-09-18 02:16:48,600 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 04:07:37,166 - src.utils.logging_utils - WARNING - 配置文件不存在: config/app_config.json，使用默认配置
+2025-09-18 04:07:37,168 - src.utils.logging_utils - INFO - 配置管理器初始化完成
+2025-09-18 04:07:46,849 - src.utils.logging_utils - INFO - 性能监控已启动
+2025-09-18 04:07:49,646 - src.utils.dependency_manager - INFO - 依赖 ccxt 可用
+2025-09-18 04:07:49,647 - src.utils.dependency_manager - WARNING - 依赖 ccxt-pro 不可用: 实时数据流功能已禁用，使用模拟数据模式
+2025-09-18 04:07:49,648 - src.utils.dependency_manager - WARNING - 依赖 TA-Lib 不可用: 高级技术指标功能已禁用，使用基础指标
+2025-09-18 04:07:49,649 - src.utils.dependency_manager - WARNING - 依赖 Redis 不可用: Redis缓存已禁用，使用内存缓存
+2025-09-18 04:07:49,654 - providers.real_data_service - INFO - 多源加密货币数据提供者已初始化
+2025-09-18 04:07:49,654 - providers.real_data_service - INFO - 真实交易所数据提供者已初始化
+2025-09-18 04:07:49,700 - providers.ccxt_enhanced - INFO - Initialized Binance exchange
+2025-09-18 04:07:49,736 - providers.ccxt_enhanced - INFO - Initialized OKX exchange
+2025-09-18 04:07:49,758 - providers.ccxt_enhanced - INFO - Initialized KuCoin exchange
+2025-09-18 04:07:49,773 - providers.ccxt_enhanced - INFO - Initialized Gate.io exchange
+2025-09-18 04:07:49,785 - providers.ccxt_enhanced - INFO - Initialized Crypto.com exchange
+2025-09-18 04:07:49,788 - providers.real_data_service - INFO - CCXT 可用，启用真实交易所数据功能
+2025-09-18 04:07:50,665 - providers.real_exchange_provider - WARNING - API binance returned status 451
+2025-09-18 04:07:50,717 - providers.real_exchange_provider - WARNING - API bybit returned status 403
+2025-09-18 04:07:50,884 - providers.real_exchange_provider - ERROR - Error parsing OKX data: 'changePercent'
+2025-09-18 04:07:52,299 - providers.real_exchange_provider - WARNING - API binance returned status 451
+2025-09-18 04:07:52,312 - providers.real_exchange_provider - WARNING - API bybit returned status 403
+2025-09-18 04:07:52,472 - providers.real_exchange_provider - ERROR - Error parsing OKX data: 'changePercent'
+2025-09-18 04:07:53,849 - providers.real_exchange_provider - WARNING - API binance returned status 451
+2025-09-18 04:07:53,863 - providers.real_exchange_provider - WARNING - API bybit returned status 403
+2025-09-18 04:07:54,040 - providers.real_exchange_provider - ERROR - Error parsing OKX data: 'changePercent'
+2025-09-18 04:07:55,217 - providers.real_exchange_provider - WARNING - API binance returned status 451
+2025-09-18 04:07:55,221 - providers.real_exchange_provider - WARNING - API bybit returned status 403
+2025-09-18 04:07:55,415 - providers.real_exchange_provider - ERROR - Error parsing OKX data: 'changePercent'
+2025-09-18 04:07:56,697 - providers.real_exchange_provider - WARNING - API binance returned status 451
+2025-09-18 04:07:56,808 - providers.real_exchange_provider - ERROR - Error parsing OKX data: 'changePercent'
+2025-09-18 04:07:56,821 - providers.real_exchange_provider - WARNING - API bybit returned status 403
+2025-09-18 04:07:59,174 - providers.real_exchange_provider - WARNING - API bybit returned status 403
+2025-09-18 04:07:59,275 - providers.real_exchange_provider - WARNING - API binance returned status 451
+2025-09-18 04:08:00,107 - providers.real_exchange_provider - WARNING - API gate returned status 400
+2025-09-18 04:08:00,110 - providers.real_exchange_provider - WARNING - No real data available for MATIC/USDT, using mock data
+2025-09-18 04:08:00,338 - providers.real_exchange_provider - WARNING - API bybit returned status 403
+2025-09-18 04:08:00,391 - providers.real_exchange_provider - WARNING - API binance returned status 451
+2025-09-18 04:08:00,510 - providers.real_exchange_provider - ERROR - Error parsing OKX data: 'changePercent'
+2025-09-18 04:08:00,721 - providers.real_exchange_provider - WARNING - API bybit returned status 403
+2025-09-18 04:08:00,755 - providers.real_exchange_provider - WARNING - API binance returned status 451
+2025-09-18 04:08:00,904 - providers.real_exchange_provider - ERROR - Error parsing OKX data: 'changePercent'
+2025-09-18 04:08:37,637 - src.providers.real_data_service - INFO - 多源加密货币数据提供者已初始化
+2025-09-18 04:08:37,649 - src.providers.real_data_service - INFO - 真实交易所数据提供者已初始化
+2025-09-18 04:08:37,709 - src.providers.ccxt_enhanced - INFO - Initialized Binance exchange
+2025-09-18 04:08:37,751 - src.providers.ccxt_enhanced - INFO - Initialized OKX exchange
+2025-09-18 04:08:37,779 - src.providers.ccxt_enhanced - INFO - Initialized KuCoin exchange
+2025-09-18 04:08:37,815 - src.providers.ccxt_enhanced - INFO - Initialized Gate.io exchange
+2025-09-18 04:08:37,841 - src.providers.ccxt_enhanced - INFO - Initialized Crypto.com exchange
+2025-09-18 04:08:37,849 - src.providers.real_data_service - INFO - CCXT 可用，启用真实交易所数据功能
+2025-09-18 04:08:43,546 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 04:08:44,730 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 04:08:45,326 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 04:08:45,334 - src.providers.real_exchange_info_provider - ERROR - 获取 huobi 信息失败: 'huobi'
+2025-09-18 04:08:45,338 - src.providers.real_exchange_info_provider - ERROR - 获取 gate.io 信息失败: 'gate.io'
+2025-09-18 04:08:45,344 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 04:08:46,111 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 04:08:47,123 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
+2025-09-18 04:08:47,124 - src.providers.real_exchange_info_provider - ERROR - 获取 gate.io 信息失败: 'gate.io'
+2025-09-18 04:08:47,509 - src.utils.logging_utils - WARNING - 获取交易所信息失败: 'RealExchangeInfoProvider' object has no attribute 'get_trading_fee'
